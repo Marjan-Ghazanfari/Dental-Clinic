@@ -1,13 +1,10 @@
 .slider-bg {
     background-color: #dedede;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 
 .slider-info {
-    margin-right: 20rem;
+    margin-right: 10%;
 }
 
 .slider-info h1 {
@@ -27,5 +24,8 @@
     padding: 1rem;
 }
 .dentist-image{
-    margin-left: 20rem;
+    margin-left: 10%;
 }
+
+
+

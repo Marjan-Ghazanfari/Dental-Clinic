@@ -5,9 +5,9 @@ const TopMenu = () => {
     return (
         <div>
             <div className="top-wrapper">
-            <div className="topbar-openhours">
+            <div className="topbar-openhours d-flex justify-content-center align-items-center">
                 <i className="far fa-clock"></i>
-                <p>Working hours: Monday – Friday: 9:00 – 18:00</p>
+                <p className="m-0">Working hours: Monday – Friday: 9:00 – 18:00</p>
             </div>
             <div className="topbar-socialmedia">
                  <i className="fab fa-facebook-f"></i>
