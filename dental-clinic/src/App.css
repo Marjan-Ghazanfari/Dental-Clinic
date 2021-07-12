@@ -14,7 +14,9 @@
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
-    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* text-align: center; */
 }
 
 .aboutSide {
@@ -22,7 +24,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    width: 50%;
+    /* width: 50%; */
 }
 
 .aboutSide-top {
