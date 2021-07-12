@@ -8,13 +8,11 @@
 }
 
 .topbar-socialmedia {
-    margin-right: 20rem;
+    margin-right: 10%;
 }
 .topbar-openhours {
-    margin-left: 20rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin-left: 10%;
+  
 }
 
 .fa-clock, .fa-facebook-f, .fa-google-plus-g, .fa-instagram {

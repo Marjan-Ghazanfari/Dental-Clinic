@@ -50,7 +50,11 @@ function App() {
     },
   ]);
   return (
+<<<<<<< HEAD
     <div className=''>
+=======
+    <div className="body">
+>>>>>>> ac6acec72d59b7cc76e57b9c633ac649ad8a2ee7
       <TopMenu />
       <MainMenu />
       <ShowCase />

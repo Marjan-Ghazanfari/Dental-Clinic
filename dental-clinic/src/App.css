@@ -1,63 +1,85 @@
 
-/** @format */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-.services {
-    position: absolute;
-    width: 100%;
-    height: 1349px;
-    background: #f7f7f7;
-    font-family: Roboto Slab;
-  }
-  .services-title {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 150px;
-    width: 450px;
-    border-bottom: 3px solid #25e6c8;
-  }
-  
-  .services h2 {
-    text-align: center;
-    font-size: 40px;
-    line-height: 50px;
-  }
-  .service {
-    list-style: none;
-  }
-  .row {
-    margin-top: 75px;
-  }
-  .card {
-    height: 436px;
-    border-radius: 0.5rem;
-  }
-  .service-img-bg {
+.body {
+    height: 100vh;
+    font-family: 'Crimson Pro', serif;
+}
+
+.aboutUs {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    height: 120px;
-    width: 120px;
-    background: #25e6c8;
-  }
-  .service-img-bg:hover {
-    background: #2baaec;
-  }
-  .card-body {
-    text-align: center;
-  }
-  .card-title {
-    font-size: 22px;
-  }
-  .card-body {
-    font-size: 18px;
-  }
-  .service-icon {
-    fill: #f7f7f7;
-    width: 60px;
-    height: 60px;
-  }
-  
+    margin-top: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* text-align: center; */
+}
+
+.aboutSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* width: 50%; */
+}
+
+.aboutSide-top {
+    padding-bottom: .2rem;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.blueText {
+    color: #2BAAEC;
+}
+
+.aboutSide-center {
+    border-top: .2rem;
+    border-top-style: solid;
+    border-color:#25E6C8;
+}
+
+.aboutSide-center p {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-size: smaller;
+    text-align: left;
+}
+
+.aboutSide-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutSide-bottomItems {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 2rem;
+    line-height: .2;
+}
+
+.number {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.belowText {
+    font-size: smaller;
+}
+
+/* .picSide {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+} */
+
+.picSide img {
+    height: 400px;
+    margin-left: 3rem;
+}
