@@ -5,7 +5,7 @@ import TopMenu from "./components/navigation/TopMenu";
 import MainMenu from "./components/navigation/MainMenu";
 import ShowCase from "./components/ShowCase";
 import AboutUs from "./components/AboutUs";
-import Services  from "./views/Services";
+import Services from "./views/Services";
 import Appointment from "./components/Appointment";
 import Footer from "./components/navigation/Footer";
 import { useState } from "react";
@@ -50,11 +50,7 @@ function App() {
     },
   ]);
   return (
-<<<<<<< HEAD
-    <div className=''>
-=======
-    <div className="body">
->>>>>>> ac6acec72d59b7cc76e57b9c633ac649ad8a2ee7
+    <div className='body'>
       <TopMenu />
       <MainMenu />
       <ShowCase />
