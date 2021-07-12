@@ -10,7 +10,7 @@ import Footer from './components/navigation/Footer';
 
 function App() {
   return (
-    <div className="">
+    <div className="body">
       <TopMenu />
       <MainMenu />
       <ShowCase />

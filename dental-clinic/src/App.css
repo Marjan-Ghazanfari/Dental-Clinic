@@ -1,5 +1,82 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    height: 100vh;
+    font-family: 'Crimson Pro', serif;
+}
+
+.aboutUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.aboutSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.aboutSide-top {
+    padding-bottom: .2rem;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.blueText {
+    color: #2BAAEC;
+}
+
+.aboutSide-center {
+    border-top: .2rem;
+    border-top-style: solid;
+    border-color:#25E6C8;
+}
+
+.aboutSide-center p {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-size: smaller;
+    text-align: left;
+}
+
+.aboutSide-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutSide-bottomItems {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 2rem;
+    line-height: .2;
+}
+
+.number {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.belowText {
+    font-size: smaller;
+}
+
+/* .picSide {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+} */
+
+.picSide img {
+    height: 400px;
+    margin-left: 3rem;
 }
