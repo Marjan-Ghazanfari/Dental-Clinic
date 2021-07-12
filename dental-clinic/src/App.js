@@ -55,7 +55,7 @@ function App() {
       <MainMenu />
       <ShowCase />
       <AboutUs />
-      <Services services={services} />
+      <Services  services={services} />
       <Appointment />
       <Footer />
     </div>

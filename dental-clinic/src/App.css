@@ -92,6 +92,11 @@
   background: #f7f7f7;
   font-family: Roboto Slab;
 }
+.services-group {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .services-title {
   margin-left: auto;
   margin-right: auto;

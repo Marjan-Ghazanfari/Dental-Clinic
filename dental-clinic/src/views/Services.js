@@ -6,7 +6,7 @@ import Service from "../components/Service";
 const Services = ({ services }) => {
   return (
     <div className='services'>
-      <div className='container'>
+      <div className='services-group'>
         <div className='services-title'>
           <h2>Our services</h2>
         </div>
