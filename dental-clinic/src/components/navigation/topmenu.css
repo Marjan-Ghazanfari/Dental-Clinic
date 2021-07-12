@@ -1,0 +1,28 @@
+.top-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5rem;
+    border: 2px solid rgb(230, 242, 243);
+    padding-bottom: 0.5rem;
+}
+
+.topbar-socialmedia {
+    margin-right: 20rem;
+}
+.topbar-openhours {
+    margin-left: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-clock, .fa-facebook-f, .fa-google-plus-g, .fa-instagram {
+    color: #2BAAEC;
+    margin-right: 1.5rem;
+}
+
+.fa-twitter {
+    color: #25E6C8;
+    margin-right: 1.5rem;
+}

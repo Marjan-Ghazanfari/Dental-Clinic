@@ -1,0 +1,31 @@
+.slider-bg {
+    background-color: #dedede;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.slider-info {
+    margin-right: 20rem;
+}
+
+.slider-info h1 {
+ font-weight: 200;
+ margin-bottom: 3rem;
+}
+.slider-info p {
+    color: #626262;
+    margin-bottom: 2rem;
+}
+
+.slider-info button {
+    background-color:#25E6C8;
+    border: none;
+    border-radius: 10%;
+    color: white;
+    padding: 1rem;
+}
+.dentist-image{
+    margin-left: 20rem;
+}
