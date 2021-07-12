@@ -1,6 +1,9 @@
-import React from 'react'
+/** @format */
+
+import React from "react";
 
 const Services = () => {
+<<<<<<< HEAD
     return (
         <div className="services">
             <h2>Our services</h2>
@@ -18,5 +21,13 @@ const Services = () => {
         </div>
     )
 }
+=======
+  return (
+    <div className='services'>
+      <h2>Our services</h2>
+    </div>
+  );
+};
+>>>>>>> ea7860ff93a7fea27773fc91c36ca62966ab1805
 
-export default Services
+export default Services;

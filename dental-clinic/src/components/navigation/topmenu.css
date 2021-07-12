@@ -12,9 +12,7 @@
 }
 .topbar-openhours {
     margin-left: 10%;
-    display: flex !important;
-    justify-content: space-between !important;
-    align-items: center !important;
+  
 }
 
 .fa-clock, .fa-facebook-f, .fa-google-plus-g, .fa-instagram {
